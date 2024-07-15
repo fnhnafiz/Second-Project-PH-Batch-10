@@ -147,7 +147,7 @@ enjoyable-feature
   max-width: 80%;
   margin: 0 auto;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 .love {
   margin-bottom: 87px;
@@ -180,8 +180,8 @@ enjoyable-feature
   flex-direction: column;
   justify-content: space-between;
   gap: 12px;
-  padding: 20px;
-  box-shadow: #727272;
+  padding: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .features-description h4 {
   color: rgb(19, 19, 19);
@@ -196,7 +196,7 @@ enjoyable-feature
   line-height: 17px;
 }
 .enjoable-features-right {
-  width: 536px;
+  width: 100%;
 }
 /* .enjoable-features-right  {
   max-width: 486px;
