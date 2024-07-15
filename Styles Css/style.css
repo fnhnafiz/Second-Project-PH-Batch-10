@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+.bars {
+  display: none;
+}
 h3 {
   font-size: 30px;
 }
@@ -343,17 +346,23 @@ Responsive Media Quaries
   nav ul {
     display: none;
   }
-  .main-header {
-    width: 80%;
+  .bars {
+    display: block;
+    font-size: 25px;
   }
-  .hero-container img {
+  .hero-container {
+    width: 90%;
     margin: 0 auto;
   }
+
   .features {
     grid-template-columns: 1fr;
     /* margin: 0 auto; */
   }
   .features-images img {
     width: 100%;
+  }
+  .enjoyable-feature {
+    flex-direction: column;
   }
 }
