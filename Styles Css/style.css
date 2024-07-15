@@ -11,9 +11,6 @@ body {
 .bars {
   display: none;
 }
-h3 {
-  font-size: 30px;
-}
 
 .main-header {
   max-width: 1286px;
@@ -29,7 +26,7 @@ nav {
   align-items: center;
 }
 nav h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   line-height: 35px;
 }
@@ -60,7 +57,7 @@ ul > li > a {
   gap: 20px;
 }
 .hero-content h3 {
-  font-size: 43px;
+  font-size: 2.68rem;
   font-weight: 700;
   color: rgb(19, 19, 19);
   line-height: 50px;
@@ -68,13 +65,13 @@ ul > li > a {
 }
 .hero-content p {
   color: rgb(114, 114, 114);
-  font-size: 10.72px;
+  font-size: 0.67rem;
   font-weight: 400;
   line-height: 17.42px;
 }
 .hero-content .hero-btn {
   color: rgb(255, 255, 255);
-  font-size: 17px;
+  font-size: 1.06rem;
   font-weight: 600;
   line-height: 15px;
   padding: 15px 18px;
@@ -114,7 +111,7 @@ quick-fast-features
   width: 227px;
 }
 .features-content h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   line-height: 36px;
   color: rgb(19, 19, 19);
@@ -128,7 +125,7 @@ quick-fast-features
 }
 .features-content p {
   color: rgb(114, 114, 114);
-  font-size: 11px;
+  font-size: 0.69rem;
   font-weight: 400;
   line-height: 17px;
   margin-bottom: 21px;
@@ -165,13 +162,13 @@ enjoyable-feature
 
 .features-heading h1 {
   color: rgb(19, 19, 19);
-  font-size: 30px;
+  font-size: 1.88rem;
   font-weight: 700;
   line-height: 35px;
 }
 #enjoy-description {
   color: rgb(114, 114, 114);
-  font-size: 10px;
+  font-size: 0.69rem;
   font-weight: 400;
   line-height: 17px;
   padding-right: 95px;
@@ -187,13 +184,13 @@ enjoyable-feature
 }
 .features-description h4 {
   color: rgb(19, 19, 19);
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 600;
   line-height: 15px;
 }
 .features-description p {
   color: rgb(114, 114, 114);
-  font-size: 13.6px;
+  font-size: 0.88rem;
   font-weight: 400;
   line-height: 17px;
 }
@@ -209,7 +206,7 @@ enjoyable-feature
   padding-left: 25px;
 }
 #feature-btn {
-  font-size: 43px;
+  font-size: 2.69rem;
   color: rgb(255, 255, 255);
   font-weight: 700;
   line-height: 40px;
@@ -239,14 +236,14 @@ some-facts
 }
 .some-facts h3 {
   color: rgb(19, 19, 19);
-  font-size: 30px;
+  font-size: 1.88rem;
   font-weight: 700;
   line-height: 35px;
   margin-bottom: 16px;
 }
 .some-facts p {
   color: rgb(114, 114, 114);
-  font-size: 10px;
+  font-size: 0.69rem;
   font-weight: 400;
   line-height: 17px;
 }
@@ -276,13 +273,13 @@ some-facts
 }
 .icon h3 {
   color: rgb(66, 66, 66);
-  font-size: 30px;
+  font-size: 1.88rem;
   font-weight: 600;
   line-height: 35px;
 }
 .icon p {
   color: rgb(114, 114, 114);
-  font-size: 14px;
+  font-size: 0.88rem;
   font-weight: 600;
   line-height: 16px;
 }
@@ -301,14 +298,14 @@ sponser Styles
 }
 .sponser-content h3 {
   color: rgb(19, 19, 19);
-  font-size: 30px;
+  font-size: 1.88rem;
   font-weight: 700;
   line-height: 35px;
   margin-bottom: 16px;
 }
 .sponser-content p {
   color: rgb(114, 114, 114);
-  font-size: 10px;
+  font-size: 0.63rem;
   font-weight: 400;
   line-height: 17px;
 }
@@ -338,7 +335,7 @@ Foter
 }
 .text-footer p {
   color: rgb(66, 66, 66);
-  font-size: 11px;
+  font-size: 0.69rem;
   font-weight: 400;
   line-height: 16px;
 }
