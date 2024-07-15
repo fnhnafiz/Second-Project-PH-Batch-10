@@ -43,7 +43,7 @@ ul > li > a {
   margin: 0 auto;
 }
 .hero-content {
-  width: 577px;
+  max-width: 577px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 33px;
@@ -76,8 +76,7 @@ ul > li > a {
   background: rgb(255, 144, 14);
 }
 .hero-container img {
-  width: 964px;
-
+  width: 80%;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -88,8 +87,7 @@ ul > li > a {
 quick-fast-features
 */
 .quick-fast-features {
-  max-width: 883px;
-  height: 474px;
+  max-width: 65%;
   margin: 0 auto;
 }
 .features {
@@ -142,10 +140,10 @@ quick-fast-features
 enjoyable-feature
 */
 .enjoyable-feature {
-  width: 964px;
-  height: 709px;
+  max-width: 80%;
   margin: 0 auto;
   display: flex;
+  gap: 20px;
 }
 .love {
   margin-bottom: 87px;
@@ -193,14 +191,14 @@ enjoyable-feature
   line-height: 17px;
 }
 .enjoable-features-right {
-  width: 536px;
-  width: 710px;
+  max-width: 536px;
+  height: 710px;
 }
-.enjoable-features-right .features-img {
-  width: 486px;
+/* .enjoable-features-right  {
+  max-width: 486px;
   height: 662px;
-}
-.enjoable-features-right .features-img img {
+} */
+.enjoable-features-right img {
   width: 100%;
   padding-left: 25px;
 }
@@ -214,8 +212,8 @@ enjoyable-feature
   background: rgb(255, 144, 14);
   border: transparent;
   position: relative;
-  bottom: 106px;
-  left: 0;
+  bottom: 77px;
+  left: -15px;
 }
 #feature-btn span {
   font-weight: 500;
@@ -227,8 +225,7 @@ enjoyable-feature
 some-facts
 */
 .some-facts-container {
-  max-width: 938px;
-  height: 315px;
+  max-width: 80%;
   margin: 87px auto;
 }
 .some-facts h3 {
@@ -245,12 +242,14 @@ some-facts
   line-height: 17px;
 }
 .some-facts-images {
-  width: 897px;
-  height: 162px;
+  max-width: 90%;
+  /* height: 162px; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .smf {
   margin-top: 66px;
@@ -282,12 +281,11 @@ some-facts
 sponser Styles
 */
 .sponser {
-  max-width: 964px;
-  height: 153px;
+  max-width: 80%;
   margin: 87px auto;
 }
 .sponser-content {
-  width: 363px;
+  max-width: 363px;
   height: 86px;
   margin: 0 auto;
   text-align: center;
@@ -310,6 +308,8 @@ sponser Styles
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .sponser-logo img {
   width: 110px;
@@ -319,8 +319,8 @@ sponser Styles
 Foter
 */
 .footer {
-  max-width: 964px;
-  height: 67px;
+  max-width: 80%;
+  /* height: 67px; */
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -332,4 +332,28 @@ Foter
   font-size: 11px;
   font-weight: 400;
   line-height: 16px;
+}
+/*
+Responsive Media Quaries
+*/
+@media screen and (max-width: 576px) {
+  nav {
+    width: 80%;
+  }
+  nav ul {
+    display: none;
+  }
+  .main-header {
+    width: 80%;
+  }
+  .hero-container img {
+    margin: 0 auto;
+  }
+  .features {
+    grid-template-columns: 1fr;
+    /* margin: 0 auto; */
+  }
+  .features-images img {
+    width: 100%;
+  }
 }
