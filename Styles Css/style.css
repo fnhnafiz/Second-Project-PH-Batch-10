@@ -403,7 +403,12 @@ Responsive Media Quaries
     flex-direction: column;
     gap: 50px;
   }
+  footer {
+    width: 100%;
+  }
   footer .text-footer p {
+    padding: 10px 20px;
+
     font-size: 10px;
   }
 }
