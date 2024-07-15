@@ -182,6 +182,7 @@ enjoyable-feature
   gap: 12px;
   padding: 25px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
 }
 .features-description h4 {
   color: rgb(19, 19, 19);
@@ -376,7 +377,7 @@ Responsive Media Quaries
     padding: 10px 0;
   }
   .enjoable-features-right img {
-    width: 60%;
+    width: 100%;
   }
   #feature-btn {
     font-size: 36px;
@@ -384,8 +385,8 @@ Responsive Media Quaries
     line-height: 40px;
     padding: 20px 20px;
     position: relative;
-    bottom: -31px;
-    left: -358px;
+    bottom: 56px;
+    left: -35px;
   }
   .some-facts p {
     font-size: 10px;
