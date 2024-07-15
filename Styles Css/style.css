@@ -194,8 +194,7 @@ enjoyable-feature
   line-height: 17px;
 }
 .enjoable-features-right {
-  max-width: 536px;
-  height: 710px;
+  width: 536px;
 }
 /* .enjoable-features-right  {
   max-width: 486px;
@@ -364,5 +363,24 @@ Responsive Media Quaries
   }
   .enjoyable-feature {
     flex-direction: column;
+  }
+  #enjoy-description {
+    padding: 10px 0;
+  }
+  .enjoable-features-right img {
+    width: 60%;
+  }
+  #feature-btn {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 20px 20px;
+    position: relative;
+    bottom: -31px;
+    left: -358px;
+  }
+  .icon {
+    width: 134px;
+    height: 134px;
   }
 }
