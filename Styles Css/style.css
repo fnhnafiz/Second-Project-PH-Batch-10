@@ -407,3 +407,11 @@ Responsive Media Quaries
     font-size: 10px;
   }
 }
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    width: 80%;
+  }
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
