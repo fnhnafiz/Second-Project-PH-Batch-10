@@ -401,4 +401,7 @@ Responsive Media Quaries
     flex-direction: column;
     gap: 50px;
   }
+  footer .text-footer p {
+    font-size: 10px;
+  }
 }
