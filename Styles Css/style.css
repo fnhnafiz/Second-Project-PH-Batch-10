@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .bars {
   display: none;
 }
@@ -342,9 +345,6 @@ Foter
 Responsive Media Quaries
 */
 @media screen and (max-width: 576px) {
-  body {
-    overflow-x: hidden;
-  }
   nav {
     width: 80%;
   }
@@ -363,6 +363,9 @@ Responsive Media Quaries
   .features {
     grid-template-columns: 1fr;
     /* margin: 0 auto; */
+  }
+  .features-images {
+    grid-template-columns: 1fr;
   }
   .features-images img {
     width: 100%;
@@ -389,13 +392,11 @@ Responsive Media Quaries
     font-size: 10px;
   }
   .some-facts-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
     gap: 25px;
   }
   .icon {
-    width: 134px;
-    height: 134px;
+    width: 100%;
   }
   .sponser-logo {
     flex-direction: column;
