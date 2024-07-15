@@ -230,6 +230,9 @@ some-facts
   max-width: 80%;
   margin: 87px auto;
 }
+.some-facts {
+  width: 350px;
+}
 .some-facts h3 {
   color: rgb(19, 19, 19);
   font-size: 30px;
@@ -339,6 +342,9 @@ Foter
 Responsive Media Quaries
 */
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   nav {
     width: 80%;
   }
@@ -379,8 +385,20 @@ Responsive Media Quaries
     bottom: -31px;
     left: -358px;
   }
+  .some-facts p {
+    font-size: 10px;
+  }
+  .some-facts-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
   .icon {
     width: 134px;
     height: 134px;
+  }
+  .sponser-logo {
+    flex-direction: column;
+    gap: 50px;
   }
 }
